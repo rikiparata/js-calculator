@@ -1,6 +1,6 @@
 .calculator{
     background-color:rgb(43, 144, 226);
-    border: 5px;
+    border: 20px;
     padding: 25px;
     position: absolute;
     
@@ -13,3 +13,6 @@
 .buttons {
     color: white;
 }
+.buttons:hover{
+    background-color:skyblue;
+ }
