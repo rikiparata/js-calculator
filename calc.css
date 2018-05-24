@@ -1,0 +1,15 @@
+.calculator{
+    background-color:rgb(43, 144, 226);
+    border: 5px;
+    padding: 25px;
+    position: absolute;
+    
+}
+
+.header {
+    color: white;
+}
+
+.buttons {
+    color: white;
+}
