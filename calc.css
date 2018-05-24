@@ -1,19 +1,19 @@
 .calculator{
-    background-color:rgb(43, 144, 226);
-    border: 20px;
-    padding: 25px;
-    position: absolute;
-    
+  background-color:rgb(43, 144, 226);
+  border: 20px;
+  padding: 25px;
+  position: absolute;
+  
 }
 
 .header {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 .buttons {
-    color: white;
+  color: white;
 }
 .buttons:hover{
-    background-color:skyblue;
- }
+  background-color:skyblue;
+}
