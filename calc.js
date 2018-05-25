@@ -14,7 +14,7 @@ function addEventListeners() {
     var entries = []; 
 
     function calculate (evt) {
-        var val = evt.target.id  //add button text to value
+        var val = evt.target.id 
 
   if (val === 'AC') {
     temp = '';
@@ -25,7 +25,7 @@ function addEventListeners() {
     temp = temp.slice(0, - 1);
     document.getElementById("answer").innerHTML = temp;
   }
-  else if (val === 'equal') {
+  else if (val === '=') {
     var answer = eval(entries.join(''));
     var compute = answer;
     document.getElementById("answer").innerHTML = compute;
